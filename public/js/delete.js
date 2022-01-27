@@ -10,8 +10,10 @@ Devs.forEach((Dev)=>{
 
 if(rc==true){
         
-      url = "http://localhost:3001/development/"+ Dev.dataset.id;
-      console.log(url);
+     // url = "http://localhost:3001/development/"+ Dev.dataset.id;
+     url = "https://web-inetek-api.herokuapp.com/development/"+ Dev.dataset.id;
+     
+     console.log(url);
     
        fetch(url,{
         method: 'DELETE',

@@ -1,8 +1,8 @@
 const form = document.querySelector('form')
 
 console.log(form)
-const url = 'http://localhost:3001/development'
-
+//const url = 'http://localhost:3001/development';
+const url = 'https://web-inetek-api.herokuapp.com/development';
 
 form.addEventListener('submit', (info)=>{
     info.preventDefault()
