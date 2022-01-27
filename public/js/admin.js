@@ -25,6 +25,7 @@ form.addEventListener('submit', (info)=>{
          
          if (!res.ok) throw Error(res.status);
          alert("Desarrollo cargado exitosamente");
+         location.reload();
     })
      .catch((err) => alert(err + " Algunos datos son obligatorios.\nNo se cargó el desarollo a la base de datos.") )
 })
