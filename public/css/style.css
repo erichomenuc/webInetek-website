@@ -966,6 +966,13 @@ visibility: hidden;
 
 @media(max-width: 768px) {
 
+
+  .modal-subcontainer{
+    display: block;
+    align-content: center;
+  }
+
+
 nav{
   position: relative;
   top: auto;
