@@ -1,3 +1,9 @@
 .dev-title-delete{
   padding: 20px;
 }
+
+
+.list-dev-container{
+  display: flex;
+  flex-wrap: wrap;
+}
