@@ -166,9 +166,13 @@ cardDev.onclick = function () {
   //modalDev.innerHTML = "Acá va el contenido detalldo del trabajo en card 01";
   blur.classList.add("active");
 
-  url = "http://localhost:3000/development/"+ cardDev.dataset.id;
+ // url = "http://localhost:3000/development/"+ cardDev.dataset.id;
 
-//console.log(cardDev.dataset.id);  
+ url = "https://web-inetek-website.herokuapp.com/development/"+ cardDev.dataset.id;
+ 
+
+
+  //console.log(cardDev.dataset.id);  
 
   fetch(url)
   .then(response => response.json())
