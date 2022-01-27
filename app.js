@@ -19,7 +19,7 @@ app.get('', (req, res) => {
     developmentsModule.getAllDevelopments((err, developments) => {
         if (err) return res.status(500).send('Some error ocurred');
         if(developments.length === 0) return res.status(500).send('Some Error Ocurred');
-        return res.render('html/index', {developments:developments});
+        return res.render('pages/index', {developments:developments});
     });
 });
 
